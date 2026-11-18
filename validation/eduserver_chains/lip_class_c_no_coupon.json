@@ -1,0 +1,8 @@
+{
+  "name": "same lip, ISO 2768-c (project premise when there is no supplier coupon, 02_tolerancias 4.3)",
+  "requirement": {"min": 0.0},
+  "contributors": [
+    {"name": "lid groove inner width", "nominal": 165.7, "tol": 1.2, "sign": 1, "source": "ISO 2768-c 120-400 mm per calculators (S10, secondary)"},
+    {"name": "base lip outer width", "nominal": 165.0, "tol": 1.2, "sign": -1, "source": "same"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "eduServer lid/base lip, total clearance across the outline (2 x 0.35 per side), ISO 2768-m on the 120-400 mm outline, parts independent",
+  "nominal_gap": 0.7,
+  "worst_case": {
+    "min": -0.3,
+    "max": 1.7
+  },
+  "rss": {
+    "min": -0.0071,
+    "max": 1.4071,
+    "independent_groups": 2,
+    "assumptions": "groups independent, centered, roughly normal, comparable capability; not valid for one-off parts or ungrouped correlated contributors"
+  },
+  "contributors": [
+    {
+      "name": "lid groove inner width (outline ~165-208 mm)",
+      "sign": 1,
+      "nominal": 165.7,
+      "tol_plus": 0.5,
+      "tol_minus": 0.5,
+      "group": null,
+      "source": "02_tolerancias 5.7 nominal clearance; ISO 2768-m 120-400 mm via secondary tables (sources S10)"
+    },
+    {
+      "name": "base lip outer width (outline ~165-208 mm)",
+      "sign": -1,
+      "nominal": 165.0,
+      "tol_plus": 0.5,
+      "tol_minus": 0.5,
+      "group": null,
+      "source": "same"
+    }
+  ],
+  "requirement": {
+    "min": 0.0,
+    "max": null
+  },
+  "meets_requirement": {
+    "worst_case": false,
+    "rss": false
+  },
+  "margin_to_min": {
+    "worst_case": -0.3,
+    "rss": -0.0071
+  }
+}

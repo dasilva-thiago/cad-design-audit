@@ -1,0 +1,9 @@
+{
+  "name": "lip as budgeted in 02_tolerancias 5.7 (class m, 0.5-3 mm range, +/-0.1 per part, per side)",
+  "requirement": {"min": 0.0},
+  "contributors": [
+    {"name": "clearance per side (nominal)", "nominal": 0.35, "tol": 0.0, "sign": 1, "source": "02 5.7"},
+    {"name": "base lip, class m 0.5-3 mm", "nominal": 0.0, "tol": 0.1, "sign": -1, "source": "02 5.7"},
+    {"name": "lid groove, class m 0.5-3 mm", "nominal": 0.0, "tol": 0.1, "sign": -1, "source": "02 5.7"}
+  ]
+}

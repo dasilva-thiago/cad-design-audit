@@ -1,0 +1,55 @@
+{
+  "name": "lip as budgeted in 02_tolerancias 5.7 (class m, 0.5-3 mm range, +/-0.1 per part, per side)",
+  "nominal_gap": 0.35,
+  "worst_case": {
+    "min": 0.15,
+    "max": 0.55
+  },
+  "rss": {
+    "min": 0.2086,
+    "max": 0.4914,
+    "independent_groups": 3,
+    "assumptions": "groups independent, centered, roughly normal, comparable capability; not valid for one-off parts or ungrouped correlated contributors"
+  },
+  "contributors": [
+    {
+      "name": "clearance per side (nominal)",
+      "sign": 1,
+      "nominal": 0.35,
+      "tol_plus": 0.0,
+      "tol_minus": 0.0,
+      "group": null,
+      "source": "02 5.7"
+    },
+    {
+      "name": "base lip, class m 0.5-3 mm",
+      "sign": -1,
+      "nominal": 0.0,
+      "tol_plus": 0.1,
+      "tol_minus": 0.1,
+      "group": null,
+      "source": "02 5.7"
+    },
+    {
+      "name": "lid groove, class m 0.5-3 mm",
+      "sign": -1,
+      "nominal": 0.0,
+      "tol_plus": 0.1,
+      "tol_minus": 0.1,
+      "group": null,
+      "source": "02 5.7"
+    }
+  ],
+  "requirement": {
+    "min": 0.0,
+    "max": null
+  },
+  "meets_requirement": {
+    "worst_case": true,
+    "rss": true
+  },
+  "margin_to_min": {
+    "worst_case": 0.15,
+    "rss": 0.2086
+  }
+}
